@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {height: 100%;}
+body {overflow:hidden; margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-dialog-container {
+    background-color: #c0f1edff !important;
+ }
+#header{
+    background-color: #c0f1edff;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    
+    p{
+        transition: all .2s ease-in-out;
+    }
+    p:hover{
+        font-weight: bold;
+        transform: scale(1.1);
+
+    }
+
+    div{
+        align-items: center;
+        p,h2{
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.head1{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    height: 100%;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    p{
+        margin-right: 10%;
+        font-family: Impact;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    input{
+        border-radius: 8px;
+        width: 275px;
+        border: 1px solid black;
+        height: 30%;
+        font-size: larger;
+        padding-left: 3%;
+    }
+}
+
+.head2{
+    display:flex;
+    margin-left: auto;
+    justify-content: space-around;
+    width:30%;
+    height: 100%;
+    margin-right: 0;
+    img{
+        max-width: 65%;
+        max-height: 65%;
+    }
+    p{
+        font-size: 17px;
+    }
+    
+}
+
+.calendar-card {
+    width: 70%;
+    
+}
+
+.cdk-overlay-pane{
+    position: absolute;
+    pointer-events: auto;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    max-width: 100%;
+    max-height: 87%;
+    overflow-y: scroll;
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
